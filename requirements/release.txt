@@ -7,12 +7,12 @@
 attrs==23.1.0
     # via python-tools-scripts
 boto3==1.28.79
-    # via -r .\requirements\release.in
+    # via -r release.in
 botocore==1.31.79
     # via
     #   boto3
     #   s3transfer
-certifi==2023.7.22
+certifi==2024.7.4
     # via requests
 cfgv==3.4.0
     # via pre-commit
@@ -39,13 +39,13 @@ nodeenv==1.8.0
 platformdirs==3.11.0
     # via virtualenv
 pre-commit==3.5.0
-    # via -r .\requirements\release.in
+    # via -r release.in
 pygments==2.16.1
     # via rich
 python-dateutil==2.8.2
     # via botocore
 python-tools-scripts==0.18.1
-    # via -r .\requirements\release.in
+    # via -r release.in
 pyyaml==6.0.1
     # via pre-commit
 requests==2.31.0
